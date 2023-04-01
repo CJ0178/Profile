@@ -1,0 +1,237 @@
+*{
+    margin: 0vw;
+    padding: 0vw;
+}
+
+#navbar{
+    padding-left: 3.2vw;
+}
+
+.navColor {
+    transition: all 0.5s;
+    background-color: white;
+}
+
+.navbar-nav .nav-link.active{
+    text-decoration: underline #df517c !important;
+}
+
+
+#home{
+    font-weight: bold;
+}
+
+.heading{
+    top: 0;
+    width: 100%;
+    background-image: url(header.png);
+    background-size: cover;
+    height: 50vw;
+    padding-top: 10vw;
+}
+
+.heading_content{
+    margin-top: 8vw;
+    margin-left: 6vw;
+    width: 50%;
+    /* border: 1px solid red; */
+}
+
+.heading_content h1{
+    font-size: 5vw;
+    /* border: 1px solid red; */
+}
+
+.heading_content a{
+    color: white;
+    font-weight:600;
+}
+
+.btn{
+    width: 25%;
+    text-align: center;
+    background-color: #F08CAA;
+}
+
+.btn:hover{
+    color: white;
+    background-color: #df517c;
+}
+
+#about{
+    border-top: 1px solid #f3b3c700;
+    margin-bottom: 10vw;
+}
+
+.background_circle1{
+    text-align: right;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+
+.background_circle1 span.dot_kanan{
+    display: inline-block;
+    width: 17vw;
+    height: 34vw;
+    border-radius: 17vw 0 0 17vw;
+    background: #F3B3C7;
+}
+
+.background_circle2{
+    text-align: left;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+.background_circle2 span.dot_kiri{
+    display: inline-block;
+    width: 17vw;
+    height: 34vw;
+    border-radius: 0 17vw 17vw 0;
+    background: #F3B3C7;
+}
+
+.header{
+    color: #F08CAA;
+    font-size: 4vw;
+    margin-top: 4vw;
+}
+
+.gif_underline{
+    margin: 0 auto 0 auto;
+    box-sizing: border-box;
+    position:relative;
+    transition-property: undefined;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    /* filter: blur(0px); */
+    width: 40vw;
+    /* border: 1px solid red; */
+}
+
+.q-image, 
+.qu-cursor--default,
+.qu-display--block{
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.photo{
+    text-align: center;
+    left: 0;
+    right: 0;
+    position: relative;
+    
+}
+
+.object-fit-cover {
+    display: inline-block;
+    width:12vw;
+    height:12vw;
+    object-fit:cover;
+    border: 5px solid #F3B3C7;
+}
+
+p.text{
+    /* border: 1px solid red; */
+    width: 50%;
+    font-size: 1.7vw;
+}
+
+.container-bg{
+    background: #F08CAAD6;
+}
+
+#education h1{
+    padding-top: 4vw;
+    font-size: 4vw;
+}
+
+.sekolah1,
+.sekolah2,
+.sekolah3,
+.sekolah4,
+.sekolah5{
+    width: fit-content;
+}
+
+.sekolah_bagian_atas,
+.sekolah_bagian_bawah{
+    gap: 11vw;
+}
+
+.sekolah img{
+    width: 15vw;
+}
+
+img.dekorasikanan{
+    margin-top: 4vw;
+    width: 12vw;
+}
+
+img.dekorasikiri{
+    width: 12vw;
+    margin-top: 2vw;
+}
+
+h1.skill_header{
+    font-size: 4vw;
+    color: #F08CAA;
+}
+
+.skills_content img{
+    width: 13vw;
+}
+
+.gambarAtas,
+.gambarBawah{
+    gap: 10vw;
+}
+
+#skills{
+    padding-top: 3vw;
+}
+
+h1.mbti_header{
+    color: #F08CAA;
+    font-size: 4vw;
+    padding: 4vw;
+}
+
+.image_container{
+    margin-top: 3vw;
+    position: absolute;
+    left: 0;
+    width: fit-content;
+    /* border: 1px solid red; */
+    background: #F08CAAD6;
+    border-radius: 0 2.5vw 2.5vw 0;
+}
+
+.image_container img{
+    padding: 2vw;
+    width: 60vw;
+}
+
+.mbti_name h1{
+    margin-top: 14vw;
+    margin-right: 15vw;
+    font-size: 3.5vw;
+}
+
+.social-links{
+    margin-top: 4vw;
+}
+
+i.bi {
+    font-size: 3vw;
+    color: #F08CAA;
+}
+
+i.bi:hover{
+    /* color: #df517c; */
+    animation: 1s normal;
+}
