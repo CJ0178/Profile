@@ -29,29 +29,3 @@ function changeColorNav(){
     // }
 }
 window.addEventListener('scroll', changeColorNav);
-
-// active navigation link
-const navLinks = document.querySelectorAll('.navbar-nav a');
-navLinks.forEach(navLink => {
-  navLink.addEventListener('click', function(event) {
-    navLinks.forEach(link => {
-      link.classList.remove('active');
-      link.style.textDecoration = "none";
-      link.removeAttribute('aria-current');
-    });
-    
-    this.classList.add('active');
-    this.style.textDecoration = "underline";
-    this.setAttribute('aria-current', 'page');
-  });
-});
-
-const currentUrl = window.location.href;
-navLinks.forEach(navLink => {
-  if (navLink.href === currentUrl) {
-    navLink.classList.add('active');
-    navLink.style.textDecoration = "underline";
-    navLink.setAttribute('aria-current', 'page');
-  }
-});
-

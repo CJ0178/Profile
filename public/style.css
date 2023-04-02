@@ -7,15 +7,24 @@
     padding-left: 3.2vw;
 }
 
+#navbar a{
+    font-size: 1.6vw;
+}
+
+.logo{
+    width: 11vw;
+}
+
 .navColor {
     transition: all 0.5s;
     background-color: white;
 }
 
+.navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active{
     text-decoration: underline #df517c !important;
+    transition: all 0.5s;
 }
-
 
 #home{
     font-weight: bold;
@@ -24,9 +33,9 @@
 .heading{
     top: 0;
     width: 100%;
-    background-image: url(header.png);
+    background-image: url(assets/header1.png);
     background-size: cover;
-    height: 50vw;
+    height: 51.1vw;
     padding-top: 10vw;
 }
 
@@ -38,24 +47,33 @@
 }
 
 .heading_content h1{
+    margin: 0;
     font-size: 5vw;
     /* border: 1px solid red; */
 }
 
+.heading_content p{
+    margin: 0;
+    font-size: 1.6vw;
+    /* border: 1px solid red; */
+}
+
 .heading_content a{
+    font-size: 1.8vw;
     color: white;
     font-weight:600;
 }
 
-.btn{
+a.btn{
     width: 25%;
     text-align: center;
     background-color: #F08CAA;
 }
 
-.btn:hover{
+a.btn:hover{
     color: white;
     background-color: #df517c;
+    transition: all 0.5s;
 }
 
 #about{
@@ -107,9 +125,7 @@
     transition-property: undefined;
     transition-duration: 1s;
     transition-timing-function: ease-out;
-    /* filter: blur(0px); */
     width: 40vw;
-    /* border: 1px solid red; */
 }
 
 .q-image, 
@@ -123,8 +139,7 @@
     text-align: center;
     left: 0;
     right: 0;
-    position: relative;
-    
+    /* position: relative; */
 }
 
 .object-fit-cover {
@@ -183,7 +198,7 @@ h1.skill_header{
 }
 
 .skills_content img{
-    width: 13vw;
+    width: 11.7vw;
 }
 
 .gambarAtas,
@@ -192,7 +207,8 @@ h1.skill_header{
 }
 
 #skills{
-    padding-top: 3vw;
+    padding-top: 5vw;
+    padding-bottom: 3vw;
 }
 
 h1.mbti_header{
@@ -222,16 +238,46 @@ h1.mbti_header{
     font-size: 3.5vw;
 }
 
-.social-links{
-    margin-top: 4vw;
-}
-
 i.bi {
-    font-size: 3vw;
+    font-size: 1.3vw;
     color: #F08CAA;
 }
 
 i.bi:hover{
     /* color: #df517c; */
     animation: 1s normal;
+}
+
+.row p,
+.row a,
+.row span{
+    font-size: 1vw;
+}
+
+footer{
+    background-color: #F08CAA;
+}
+
+#mbti{
+    height: fit-content;
+}
+
+button.btn{
+    width: 25%;
+    background-color: #df517c;
+}
+
+#contact{
+    /* border: 1px solid red; */
+    padding: 2vw 5vw 5vw 5vw;
+    background-color: #F3B3C7;
+}
+
+#contact h1{
+    font-size: 4vw;
+}
+
+button.btn:hover{
+    background-color: #cf3060;
+    transition: all 0.5s;
 }
