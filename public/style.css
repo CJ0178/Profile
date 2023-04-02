@@ -42,30 +42,28 @@
 .heading_content{
     margin-top: 8vw;
     margin-left: 6vw;
-    width: 50%;
+    width: 90%;
     /* border: 1px solid red; */
 }
 
 .heading_content h1{
     margin: 0;
-    font-size: 5vw;
+    font-size: 4.3vw;
     /* border: 1px solid red; */
 }
 
 .heading_content p{
     margin: 0;
-    font-size: 1.6vw;
+    font-size: 2vw;
     /* border: 1px solid red; */
 }
 
 .heading_content a{
     font-size: 1.8vw;
-    color: white;
-    font-weight:600;
 }
 
 a.btn{
-    width: 25%;
+    width: 30%;
     text-align: center;
     background-color: #F08CAA;
 }
@@ -173,6 +171,11 @@ p.text{
     width: fit-content;
 }
 
+.sekolah p{
+    font-size: 1.3vw;
+    margin-top: 2vw;
+}
+
 .sekolah_bagian_atas,
 .sekolah_bagian_bawah{
     gap: 11vw;
@@ -201,6 +204,13 @@ h1.skill_header{
     width: 11.7vw;
 }
 
+.zoom{
+    transition: 0.5s;
+}
+.zoom:hover{
+    transform: scale(110%);
+}
+
 .gambarAtas,
 .gambarBawah{
     gap: 10vw;
@@ -211,31 +221,10 @@ h1.skill_header{
     padding-bottom: 3vw;
 }
 
-h1.mbti_header{
-    color: #F08CAA;
-    font-size: 4vw;
-    padding: 4vw;
-}
-
-.image_container{
-    margin-top: 3vw;
-    position: absolute;
-    left: 0;
-    width: fit-content;
-    /* border: 1px solid red; */
-    background: #F08CAAD6;
-    border-radius: 0 2.5vw 2.5vw 0;
-}
 
 .image_container img{
     padding: 2vw;
     width: 60vw;
-}
-
-.mbti_name h1{
-    margin-top: 14vw;
-    margin-right: 15vw;
-    font-size: 3.5vw;
 }
 
 i.bi {

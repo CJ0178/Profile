@@ -45,8 +45,10 @@
           <div class="container-fluid heading" id="heading">
             <div class="heading_content">
               <h1 class="fw-bold">Hello and Welcome!</h1>
-              <p class="my-5">Get to know about me more</p>
-              <a class="btn shadow" href="#about" role="button">About Me</a>
+              <p class="my-3">Get to know about me more</p>
+              <div class="button">
+                <a class="btn shadow text-light fw-bold" href="#about" role="button">About Me</a>
+              </div>
             </div>
           </div>
           
@@ -79,11 +81,11 @@
           <div class="container-fluid container-bg" id="education">
             <h1 class="text-center text-white text-decoration-underline fw-bold">EDUCATION</h1>
             <br>
-            <div class="sekolah text-center fs-3">
+            <div class="sekolah text-center">
               <div class="sekolah_bagian_atas d-inline-flex">
-                <div class="sekolah1 ">
+                <div class="sekolah1 text-center">
                   <div class="tk">
-                    <img src="assets/tk.png" alt="TK Mardi Waluya Cibinong" class="rounded">
+                    <img src="assets/tk.png" alt="TK Mardi Waluya Cibinong" class="rounded zoom">
                   </div>
                   <div class="namaSekolah1">
                     <p class="text-center">TK Mardi Waluya Cibinong</p>
@@ -91,7 +93,7 @@
                 </div>
                 <div class="sekolah2">
                   <div class="sd">
-                    <img src="assets/sd.png" alt="SD Mardi Waluya Cibinong" class="rounded">
+                    <img src="assets/sd.png" alt="SD Mardi Waluya Cibinong" class="rounded zoom">
                   </div>
                   <div class="namaSekolah2">
                     <p class="text-center">SD Mardi Waluya Cibinong</p>
@@ -99,7 +101,7 @@
                 </div>
                 <div class="sekolah3">
                   <div class="smp">
-                    <img src="assets/smp.png" alt="SMP Mardi Waluya Cibinong" class="rounded">
+                    <img src="assets/smp.png" alt="SMP Mardi Waluya Cibinong" class="rounded zoom">
                   </div>
                   <div class="namaSekolah3">
                     <p class="text-center">SMP Mardi Waluya Cibinong</p>
@@ -112,7 +114,7 @@
                 </div>
                 <div class="sekolah4">
                   <div class="sma">
-                    <img class="rounded" src="assets/sma.png" alt="SMA Mardi Waluya Cibinong">
+                    <img class="rounded zoom" src="assets/sma.png" alt="SMA Mardi Waluya Cibinong">
                   </div>
                   <div class="namaSekolah4">
                     <p class="text-center">SMA Mardi Waluya Cibinong</p>
@@ -120,7 +122,7 @@
                 </div>
                 <div class="sekolah5">
                   <div class="ppti">
-                    <img class="rounded" src="assets/ppti.png" alt="PPTI BCA (BINUS)">
+                    <img class="rounded zoom" src="assets/ppti.png" alt="PPTI BCA (BINUS)">
                   </div>
                   <div class="namaSekolah5">
                     <p class="text-center">PPTI BCA (BINUS)</p>
@@ -138,30 +140,30 @@
             <h1 class="skill_header text-decoration-underline ms-5 ps-5">SKILLS</h1>
             <div class="skills_content text-center">
               <div class="gambarAtas d-inline-flex my-5">
-                <div class="c_image">
+                <div class="c_image zoom" >
                   <img src="assets/c.png" alt="C">
                 </div>
-                <div class="html_image">
+                <div class="html_image zoom">
                   <img src="assets/html.png" alt="HTML">
                 </div>
-                <div class="css_image">
+                <div class="css_image zoom">
                   <img src="assets/css.png" alt="CSS">
                 </div>
-                <div class="js_image">
+                <div class="js_image zoom">
                   <img src="assets/js.png" alt="JavaScript">
                 </div>
               </div>
               <div class="gambarBawah d-inline-flex my-5">
-                <div class="java_image">
+                <div class="java_image zoom">
                   <img src="assets/java.png" alt="Java">
                 </div>
-                <div class="python_image">
+                <div class="python_image zoom">
                   <img src="assets/python.png" alt="Phyton">
                 </div>
-                <div class="mysql_image">
+                <div class="mysql_image zoom">
                   <img src="assets/mysql.png" alt="MySQL">
                 </div>
-                <div class="r_image">
+                <div class="r_image zoom">
                   <img src="assets/r.png" alt="R">
                 </div>
               </div>
