@@ -108,7 +108,7 @@
                   </div>
                 </div>
               </div>
-              <div class="sekolah_bagian_bawah d-inline-flex my-5">
+              <div class="sekolah_bagian_bawah d-inline-flex my-3">
                 <div class="dekorasi1">
                   <img class="dekorasikiri" src="assets/image 4.png" alt="Decoration">
                 </div>
@@ -136,7 +136,7 @@
           </div>
 
           {{-- Skill --}}
-          <div class="container-fluid mx-0" id="skills">
+          <div class="container-fluid mx-0 mb-5" id="skills">
             <h1 class="skill_header text-decoration-underline ms-5 ps-5">SKILLS</h1>
             <div class="skills_content text-center">
               <div class="gambarAtas d-inline-flex my-5">
@@ -170,8 +170,9 @@
             </div>
           </div>
 
+          {{-- Contact Me --}}
         <div class="container mt-5 text-light mb-5" id="contact">
-          <h1 class="pb-5 fw-bold">Contact Me</h1>
+          <h1 class="fw-bold">Contact Me</h1>
           <form action="https://formsubmit.co/f95cff9b62c29904b977299349938b49" class="row g-3 fs-5" method="POST">
             {{-- honeypot --}}
             <input type="text" name="_honey" style="display:none;">

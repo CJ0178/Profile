@@ -159,7 +159,7 @@ p.text{
 }
 
 #education h1{
-    padding-top: 3.4vw;
+    padding-top: 4vw;
     font-size: 4vw;
 }
 
@@ -258,7 +258,7 @@ button.btn{
 
 #contact{
     /* border: 1px solid red; */
-    padding: 2vw 5vw 5vw 5vw;
+    padding: 5vw 5vw 5vw 5vw;
     background-color: #F3B3C7;
 }
 
