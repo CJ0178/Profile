@@ -11,7 +11,7 @@ This Self Learning's web profile was created using Laravel and Bootstrap framewo
 ## The Documentation For The Web Profile
 
 ### Bootstrap implementation on Laravel
-Below is the documentation of my code, which includes the installation of Bootstrap via the npm library and the implementation of Laravel routes in web.php to direct to other web pages.
+The documentation for my code is presented below. It covers the installation of Bootstrap via the npm library, as well as the implementation of Laravel routes in web.php to enable redirection to other web pages, similar to what is described in the website documentation below.
 ![Code](https://github.com/CJ0178/Profile/blob/main/dokumentasi/code.png)
 
 ### Home
