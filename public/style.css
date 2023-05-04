@@ -62,13 +62,13 @@
     font-size: 1.8vw;
 }
 
-a.btn{
+.heading_content a.btn{
     width: 30%;
     text-align: center;
     background-color: #F08CAA;
 }
 
-a.btn:hover{
+.heading_content a.btn:hover{
     color: white;
     background-color: #df517c;
     transition: all 0.5s;
@@ -112,7 +112,7 @@ a.btn:hover{
 
 .header{
     color: #F08CAA;
-    font-size: 4vw;
+    font-size: 2.5vw;
     margin-top: 4vw;
 }
 
@@ -126,7 +126,7 @@ a.btn:hover{
     width: 40vw;
 }
 
-.q-image, 
+.q-image,
 .qu-cursor--default,
 .qu-display--block{
     box-sizing: border-box;
@@ -160,7 +160,7 @@ p.text{
 
 #education h1{
     padding-top: 4vw;
-    font-size: 4vw;
+    font-size: 2.5vw;
 }
 
 .sekolah1,
@@ -195,8 +195,8 @@ img.dekorasikiri{
     margin-top: 2vw;
 }
 
-h1.skill_header{
-    font-size: 4vw;
+h1.skillFavorite_header{
+    font-size: 2.5vw;
     color: #F08CAA;
 }
 
@@ -263,10 +263,73 @@ button.btn{
 }
 
 #contact h1{
-    font-size: 4vw;
+    font-size: 2.5vw;
 }
 
 button.btn:hover{
     background-color: #cf3060;
     transition: all 0.5s;
+}
+
+.product-rating-r {
+    background-color: #F29EB8;
+}
+
+.product-rating-sr {
+    background-color: #EB6F97;
+}
+
+.product-rating-ssr {
+    background-color: #E74B7D;
+}
+
+.background{
+    /* background-color: rgb(236, 152, 152); */
+    border: 2px solid rgb(236, 152, 152);
+}
+
+.isi{
+    padding-top: 10%;
+}
+
+img.gambar{
+    height: 25vw;
+}
+
+.card{
+    width: 21vw;
+    max-height: 50vw;
+    min-height: 37vw;
+}
+
+#favorite{
+    padding-bottom: 5vw;
+    padding-top: 5vw;
+}
+
+.detail-button{
+    background-color: #E22862;
+}
+
+.detail-button:hover{
+    background-color: #C51B51;
+}
+
+.text-underline{
+    text-decoration: underline;
+}
+
+.color-bg{
+    background-color: #FADBE5;
+}
+
+.gif_underline2 img{
+    margin: 0 auto 0 auto;
+    box-sizing: border-box;
+    position:relative;
+    width: 50vw;
+}
+
+i.back{
+    font-size: 2.5vw;
 }

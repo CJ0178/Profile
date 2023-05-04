@@ -1,6 +1,10 @@
 <?php
 
+use Illuminate\Routing\Router;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CardController;
+use App\Http\Controllers\ProdukController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,14 +17,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('profile');
+Route::get('/detail', function() {
+    return view('detail');
 });
+
+Route::get('/', [ProdukController::class, 'index'])->name('home');
+Route::get('/product/{id}', [ProdukController::class, 'show'])->name('product.show');
 
 Route::get('/success', function () {
     return view('success_form');
 });
 
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Auth::routes();
