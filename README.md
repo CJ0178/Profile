@@ -14,6 +14,9 @@ This Self Learning's web profile was created using Laravel and Bootstrap framewo
 The documentation for my code is presented below. It covers the installation of Bootstrap via the npm library, as well as the implementation of Laravel routes in web.php to enable redirection to other web pages, similar to what is described in the website documentation below.
 ![Code](https://github.com/CJ0178/Profile/blob/main/dokumentasi/code.png)
 
+## GIF Overall Website Appearance
+https://github.com/CJ0178/Profile/blob/main/dokumentasi/tampilan.gif
+
 ### Home
 The home section displays the initial view of the website page. When selecting one of the menus on the navigation bar, such as clicking on the About Me menu, it will redirect you to the About Me section on the same website page.
 ![Home](https://github.com/CJ0178/Profile/blob/main/dokumentasi/home.png)
