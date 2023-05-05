@@ -15,7 +15,7 @@ The documentation for my code is presented below. It covers the installation of 
 ![Code](https://github.com/CJ0178/Profile/blob/main/dokumentasi/code.png)
 
 ## GIF Overall Website Appearance
-![GIF](https://github.com/CJ0178/Profile/blob/main/dokumentasi/tampilan.gif)
+![GIF](https://github.com/CJ0178/Profile/blob/main/dokumentasi/tampilanGIF.gif)
 
 ### Home
 The home section displays the initial view of the website page. When selecting one of the menus on the navigation bar, such as clicking on the About Me menu, it will redirect you to the About Me section on the same website page.
