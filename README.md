@@ -34,6 +34,11 @@ On the Skills section, it displays various programming languages that I have lea
 ![Skills](https://github.com/CJ0178/Profile/blob/main/dokumentasi/skills.png)
 
 ### Favorite
+On the Favorite section, it displays my favorite manhwas.
+![Fav1](https://github.com/CJ0178/Profile/blob/main/dokumentasi/favorite1.png)
+![Fav2](https://github.com/CJ0178/Profile/blob/main/dokumentasi/favorite2.png)
+This is the detail of each card.
+![Detail](https://github.com/CJ0178/Profile/blob/main/dokumentasi/detail.png)
 
 ### Contact Me
 On the Contact Me section, there are provided columns that can be filled out if you wish to send me a message.
