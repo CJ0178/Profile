@@ -19,19 +19,19 @@ The documentation for my code is presented below. It covers the installation of 
 
 ### Home
 The home section displays the initial view of the website page. When selecting one of the menus on the navigation bar, such as clicking on the About Me menu, it will redirect you to the About Me section on the same website page.
-![Home](https://github.com/CJ0178/Profile/blob/main/dokumentasi/home.png)
+![Home](https://github.com/CJ0178/Profile/blob/afd4f85823653ad3044b4df516cfa5e8ce8576f4/dokumentasi/home.png)
 
 ### About Me
 On the About Me section, it displays my profile picture along with brief information about myself.
-![AboutMe](https://github.com/CJ0178/Profile/blob/main/dokumentasi/aboutMe.png)
+![AboutMe](https://github.com/CJ0178/Profile/blob/afd4f85823653ad3044b4df516cfa5e8ce8576f4/dokumentasi/aboutMe.png)
 
 ### Education
 The Education section displays my previous educational background, starting from elementary school, junior high school, high school, and up to my current level of education.
-![Education](https://github.com/CJ0178/Profile/blob/main/dokumentasi/education.png)
+![Education](https://github.com/CJ0178/Profile/blob/afd4f85823653ad3044b4df516cfa5e8ce8576f4/dokumentasi/education.png)
 
 ### Skills
 On the Skills section, it displays various programming languages that I have learned and mastered.
-![Skills](https://github.com/CJ0178/Profile/blob/main/dokumentasi/skills.png)
+![Skills](https://github.com/CJ0178/Profile/blob/afd4f85823653ad3044b4df516cfa5e8ce8576f4/dokumentasi/skills.png)
 
 ### Favorite
 On the Favorite section, it displays my favorite manhwas.
@@ -42,11 +42,11 @@ This is the detail of each card.
 
 ### Contact Me
 On the Contact Me section, there are provided columns that can be filled out if you wish to send me a message.
-![ContactMe](https://github.com/CJ0178/Profile/blob/main/dokumentasi/contactMe.png)
+![ContactMe](https://github.com/CJ0178/Profile/blob/afd4f85823653ad3044b4df516cfa5e8ce8576f4/dokumentasi/contactMe.png)
 If you wish to send me a message, you must fill out the provided columns in this section, except for the phone number as it is optional. If any of the columns are left blank and you click the submit button, an error message will appear instructing you to fill out the columns according to the given criteria.
-![ContactMe](https://github.com/CJ0178/Profile/blob/main/dokumentasi/contactMeError.png)
+![ContactMe](https://github.com/CJ0178/Profile/blob/afd4f85823653ad3044b4df516cfa5e8ce8576f4/dokumentasi/contactMeError.png)
 Once all the columns are filled, you can press the submit button and it will redirect you to a page indicating that the message has been successfully sent. You can then press the "Back to Home" button to return to the original website. The message you send will be delivered to my email address.
-![ContactMe](https://github.com/CJ0178/Profile/blob/main/dokumentasi/contactMeFill.png)
-![ContactMe](https://github.com/CJ0178/Profile/blob/main/dokumentasi/contactMeSuccess.png)
+![ContactMe](https://github.com/CJ0178/Profile/blob/afd4f85823653ad3044b4df516cfa5e8ce8576f4/dokumentasi/contactMeFill.png)
+![ContactMe](https://github.com/CJ0178/Profile/blob/afd4f85823653ad3044b4df516cfa5e8ce8576f4/dokumentasi/contactMeSuccess.png)
 ![PesanMasuk](https://github.com/CJ0178/Profile/blob/main/dokumentasi/pesanMasuk.png)
 So feel free to contact me!
